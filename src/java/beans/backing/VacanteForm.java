@@ -85,8 +85,8 @@ public class VacanteForm {
             ciudadImputText.setValue(ciudad);
             ciudadImputText.setSubmittedValue(ciudad);
             
-            UIInput coloniaImputText = (UIInput) uiViewRoot.findComponent("vacanteForm:colonia");
-            String colonia = "Suba";
+            UIInput coloniaImputText = (UIInput) uiViewRoot.findComponent("vacanteForm:coloniaId");
+            Long colonia = 1L;
             coloniaImputText.setValue(colonia);
             coloniaImputText.setSubmittedValue(colonia);
             

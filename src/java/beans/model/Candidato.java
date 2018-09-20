@@ -28,9 +28,9 @@ public class Candidato {
     private String apellido;
     private int sueldoDeseado;
     private String ciudad;
-    private String colonia;
     private String codigoPostal;
     private String comentario;
+    private Long idColonia;
     /**
      * Get the value of nombre
      *
@@ -111,19 +111,7 @@ public class Candidato {
         this.ciudad = ciudad;
     }
 
-    /**
-     * @return the colonia
-     */
-    public String getColonia() {
-        return colonia;
-    }
 
-    /**
-     * @param colonia the colonia to set
-     */
-    public void setColonia(String colonia) {
-        this.colonia = colonia;
-    }
 
     /**
      * @return the codigoPostal
@@ -151,6 +139,20 @@ public class Candidato {
      */
     public void setComentario(String comentario) {
         this.comentario = comentario;
+    }
+
+    /**
+     * @return the idColonia
+     */
+    public Long getIdColonia() {
+        return idColonia;
+    }
+
+    /**
+     * @param idColonia the idColonia to set
+     */
+    public void setIdColonia(Long idColonia) {
+        this.idColonia = idColonia;
     }
 
 
